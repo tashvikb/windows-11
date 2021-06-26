@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url('img/bg.jpeg'); 
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.taskbar{
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 7vh;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    z-index: 100;
+    justify-content: center;
+}
+.fm-icon{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    transform: translate(0px, 4px);
+}
+
+.file-manager{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    transition: all 0.3s ease-in; 
+    opacity: 0;
+}
+.file-manager img{
+    height: 75vh;
+}
+
+.startmenu{
+    position: absolute; 
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in; 
+}
+
+.startmenu img{
+    height: 80vh;
+    border-radius: 8px;
+}
+
+.tb-icons{
+    position: absolute;
+    display: flex;
+}
+
+.task-barright{
+    display: flex;
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+}
+.date-time{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.desktop-icons{
+    height: 100vh;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.desktop-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.desktop-icon-size{
+    width: 50px;
+}
+.desktop-icon div{
+    margin-top: 5px;
+    color: white;
+}
