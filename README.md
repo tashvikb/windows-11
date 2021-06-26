@@ -18,4 +18,4 @@ This HTML CSS JS project is created by Codewithharry a youtuber I add some modif
 ### Other:
 if you have any other idea to add in this project you can folk it and make more interactive.
 
-[link]:https://app.netlify.com/sites/relaxed-brahmagupta-4ba40e/overview
+[link]:https://relaxed-brahmagupta-4ba40e.netlify.app/
